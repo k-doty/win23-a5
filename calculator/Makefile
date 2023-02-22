@@ -15,7 +15,5 @@ division.o:
 
 clean:
 	rm -f sample $(objects)
-#	calculator: $(objects)
-#		cc -o calculator $(objects)
 
 .PHONY: clean
